@@ -1,0 +1,19 @@
+.well
+  h4= Spree.t(:pay_with_bank_trasfer)
+  p
+    strong
+      = "#{Spree.t(:reason_for_payment)}: "
+    = Spree.t(:reason_for_payment_description)
+    br
+    strong
+      = "#{Spree.t(:holder)}: "
+    = payment_method.preferred_holder
+    br
+    strong
+      = "#{Spree.t(:iban)}: "
+    = payment_method.preferred_iban
+    br
+    strong
+      = "#{Spree.t(:bank_name)}: "
+    = payment_method.preferred_bank_name
+

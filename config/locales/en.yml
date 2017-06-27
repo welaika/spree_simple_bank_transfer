@@ -2,4 +2,11 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  spree:
+    reason_for_payment: Reason for payment
+    reason_for_payment_description: enter the order number (it will be sent by email after completing the order)
+    pay_with_bank_trasfer: Pay with bank transfer
+    holder: Holder
+    iban: IBAN
+    bank_name: Bank name
+

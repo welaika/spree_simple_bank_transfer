@@ -1,0 +1,12 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+it:
+  spree:
+    reason_for_payment: Causale
+    reason_for_payment_description: inserire il numero d'ordine (verrà spedito via email una volta completato l'ordine)
+    pay_with_bank_trasfer: Paga con bonifico bancario
+    holder: Intestatario
+    iban: IBAN
+    bank_name: Nome banca
+

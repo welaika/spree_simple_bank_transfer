@@ -1,6 +1,7 @@
 module Spree
   class PaymentMethod::BankTransfer < PaymentMethod
     preference :iban, :string
+    preference :bank_name, :string
     preference :holder, :string
 
     def actions
