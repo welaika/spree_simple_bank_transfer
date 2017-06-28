@@ -7,7 +7,7 @@ Introduction goes here.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_simple_bank_transfer', github: '[your-github-handle]/spree_simple_bank_transfer'
+  gem 'spree_simple_bank_transfer', github: 'welaika/spree_simple_bank_transfer'
   ```
 
 2. Install the gem using Bundler:
