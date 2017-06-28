@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.author    = 'Fabrizio Monti'
   s.email     = 'fabrizio.monti@welaika.com'
   s.homepage  = 'https://github.com/welaika/spree_simple_bank_transfer'
-  s.license = 'MIT'
+  s.license = 'BSD-3-Clause'
 
   s.files = `git ls-files`.split("\n")
   # s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
