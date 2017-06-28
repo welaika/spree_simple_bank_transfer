@@ -8,14 +8,14 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_bank_transfer'
   s.version     = SpreeSimpleBankTransfer.version
-  s.summary     = 'Add extension summary here'
-  s.description = 'Add (optional) extension description here'
+  s.summary     = 'Simple bank transfer payment method for Spree.'
+  s.description = 'It just shows bank IBAN in checkout and order pages.'
   s.required_ruby_version = '>= 2.2.2'
 
-  s.author    = 'You'
-  s.email     = 'you@example.com'
-  s.homepage  = 'https://github.com/your-github-handle/spree_simple_bank_transfer'
-  s.license = 'BSD-3-Clause'
+  s.author    = 'Fabrizio Monti'
+  s.email     = 'fabrizio.monti@welaika.com'
+  s.homepage  = 'https://github.com/welaika/spree_simple_bank_transfer'
+  s.license = 'MIT'
 
   s.files = `git ls-files`.split("\n")
   # s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
