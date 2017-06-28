@@ -3,10 +3,12 @@
 
 en:
   spree:
-    reason_for_payment: Reason for payment
-    reason_for_payment_description: enter the order number (it will be sent by email after completing the order)
-    pay_with_bank_trasfer: Pay with bank transfer
-    holder: Holder
-    iban: IBAN
-    bank_name: Bank name
+    bank_transfer:
+      pay_with_this_method: Pay with bank transfer
+      holder: Holder
+      iban: IBAN
+      bank_name: Bank name
+      reason_for_payment: Reason for payment
+      reason_for_payment_instructions: enter the order number (it will be sent by email after completing the order).
+      reason_for_payment_value: "Payment for order %{order_number}"
 
