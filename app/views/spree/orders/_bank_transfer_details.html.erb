@@ -1,0 +1,22 @@
+<%
+  bank_transfer_payment_method =
+    order.payments.map(&:payment_method).select do |pm|
+      pm.is_a?(Spree::PaymentMethod::BankTransfer)
+    end.first
+%>
+
+<% if bank_transfer_payment_method.present? %>
+  <p>
+    <strong><%= Spree.t(:reason_for_payment) %>: </strong>
+    <span><%= Spree.t(:reason_for_payment_description) %></span>
+    <br>
+    <strong><%= Spree.t(:holder) %>: </strong>
+    <span><%= bank_transfer_payment_method.preferred_holder %></span>
+    <br>
+    <strong><%= Spree.t(:iban) %>: </strong>
+    <span><%= bank_transfer_payment_method.preferred_iban %></span>
+    <br>
+    <strong><%= Spree.t(:bank_name) %>: </strong>
+    <span><%= bank_transfer_payment_method.preferred_bank_name %></span>
+  </p>
+<% end %>

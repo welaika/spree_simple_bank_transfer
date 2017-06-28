@@ -1,0 +1,17 @@
+<div class="well">
+  <h4><%= Spree.t(:pay_with_bank_trasfer) %></h4>
+  <p>
+    <strong><%= Spree.t(:reason_for_payment) %>: </strong>
+    <span><%= Spree.t(:reason_for_payment_description) %></span>
+    <br>
+    <strong><%= Spree.t(:holder) %>: </strong>
+    <span><%= payment_method.preferred_holder %></span>
+    <br>
+    <strong><%= Spree.t(:iban) %>: </strong>
+    <span><%= payment_method.preferred_iban %></span>
+    <br>
+    <strong><%= Spree.t(:bank_name) %>: </strong>
+    <span><%= payment_method.preferred_bank_name %></span>
+  </p>
+</div>
+
