@@ -10,5 +10,5 @@ en:
       bank_name: Bank name
       reason_for_payment: Reason for payment
       reason_for_payment_instructions: enter the order number (it will be sent by email after completing the order).
-      reason_for_payment_value: "Payment for order %{order_number}"
+      reason_for_payment_value: "Order %{order_number}"
 

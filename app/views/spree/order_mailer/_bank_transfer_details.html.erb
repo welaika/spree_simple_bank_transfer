@@ -6,6 +6,7 @@
 %>
 
 <% if payment_method.present? %>
+  <h4><%= Spree.t(:pay_with_this_method, scope: :bank_transfer) %></h4>
   <p>
     <strong><%= Spree.t(:reason_for_payment, scope: :bank_transfer) %>: </strong>
     <span><%= Spree.t(:reason_for_payment_value, scope: :bank_transfer, order_number: @order.number) %></span>

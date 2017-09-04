@@ -10,4 +10,4 @@ it:
       bank_name: Nome banca
       reason_for_payment: Causale
       reason_for_payment_instructions: inserisci il numero d'ordine (verrà spedito via email una volta completato l'ordine).
-      reason_for_payment_value: "Pagamento ordine %{order_number}"
+      reason_for_payment_value: "Ordine %{order_number}"
